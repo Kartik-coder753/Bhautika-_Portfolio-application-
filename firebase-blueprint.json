@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "Booking": {
+      "title": "Booking",
+      "description": "A client booking or registration for a checkup or consultation.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Full name of the client."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Email address of the client."
+        },
+        "phone": {
+          "type": "string",
+          "description": "Phone number of the client."
+        },
+        "service": {
+          "type": "string",
+          "description": "The service the client is interested in (e.g., 1:1 Career Guidance, Workshop)."
+        },
+        "message": {
+          "type": "string",
+          "description": "Additional message or details from the client."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when the booking was created."
+        }
+      },
+      "required": ["name", "email", "service", "createdAt"]
+    }
+  },
+  "firestore": {
+    "bookings": {
+      "schema": "Booking",
+      "description": "Collection of client bookings."
+    }
+  }
+}
