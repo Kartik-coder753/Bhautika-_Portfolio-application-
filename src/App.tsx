@@ -577,7 +577,7 @@ const HomePage = () => {
                 icon: <Award className="w-8 h-8" />,
                 image: "https://github.com/user-attachments/assets/f5179061-87d1-4865-8633-c2daa562469e",
                 description: "Gain global recognition through additional training curated for international standards.",
-                features: ["CPD workshops", "Certificate courses", "Clinical skills enhancement"]
+                features: ["Certificate courses", "Clinical skills enhancement"]
               },
               {
                 id: "early-prep",
