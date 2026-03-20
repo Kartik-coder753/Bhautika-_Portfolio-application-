@@ -36,7 +36,6 @@ const services = [
     description: "Gain global recognition through additional training and certifications curated for international standards. Stay ahead of the curve with evidence-based practice.",
     longDescription: "Continuing Professional Development (CPD) is crucial in the global physiotherapy landscape. Our workshops are designed to bridge the gap between local education and international standards, ensuring you have the skills and certifications needed to succeed anywhere in the world.",
     features: [
-      "Continuing professional development (CPD) workshops",
       "Certificate courses for career advancement",
       "Skills enhancement for clinical and non-clinical growth",
       "Evidence-based practice updates",
