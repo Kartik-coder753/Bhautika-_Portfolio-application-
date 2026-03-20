@@ -592,7 +592,7 @@ const HomePage = () => {
                 title: "From Application to Arrival—We’ve Got You Covered",
                 icon: <Stethoscope className="w-8 h-8" />,
                 image: "https://github.com/user-attachments/assets/d328cfad-0bd2-4a76-b67d-e6f2fa59c849",
-                description: "Expert MSK assessment and treatment plans for patients and clinicians.",
+                description: "We believe that studying abroad should be an exciting step, not a stressful process. Our integrated services are designed to manage the details so you can focus on your future.",
                 features: ["Strategic Course & University Selection", " Simplified Student Loans & Financing", "Global Visa Application Support", "Post-Arrival Guidance"]
               }
             ].map((service, idx) => (
