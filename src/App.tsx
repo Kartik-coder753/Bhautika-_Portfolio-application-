@@ -245,7 +245,7 @@ const BookingForm = () => {
             <option>1:1 Career Guidance</option>
             <option>Workshop & Certification</option>
             <option>Early Preparation Guidance</option>
-            <option>Clinical Consultation</option>
+            <option>From Application to Arrival—We’ve Got You Covered</option>
           </select>
         </div>
         <div>
@@ -589,11 +589,11 @@ const HomePage = () => {
               },
               {
                 id: "clinical",
-                title: "Clinical Consultation",
+                title: "From Application to Arrival—We’ve Got You Covered",
                 icon: <Stethoscope className="w-8 h-8" />,
                 image: "https://github.com/user-attachments/assets/d328cfad-0bd2-4a76-b67d-e6f2fa59c849",
                 description: "Expert MSK assessment and treatment plans for patients and clinicians.",
-                features: ["MSK Assessment", "Treatment Planning", "Clinical Mentorship"]
+                features: ["Strategic Course & University Selection", " Simplified Student Loans & Financing", "Global Visa Application Support", "Post-Arrival Guidance"]
               }
             ].map((service, idx) => (
               <motion.div
