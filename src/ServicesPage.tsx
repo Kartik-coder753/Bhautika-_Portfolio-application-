@@ -61,17 +61,16 @@ const services = [
   },
   {
     id: 'clinical',
-    title: "Clinical Consultation",
+    title: " From Application to Arrival—We’ve Got You Covered",
     icon: <Stethoscope className="w-12 h-12" />,
     image: "https://github.com/user-attachments/assets/d328cfad-0bd2-4a76-b67d-e6f2fa59c849",
-    description: "Expert MSK assessment and treatment plans for patients and clinicians. Quality care backed by years of UK specialist experience.",
-    longDescription: "Our clinical consultation service provides expert musculoskeletal (MSK) assessments and evidence-based treatment plans. We work with both individual patients seeking recovery and fellow clinicians looking for specialist mentorship or second opinions on complex cases.",
+    description: "We don’t just look at rankings; we analyze your career goals, budget, and profile to find the institution where you will thrive.",
+    longDescription: "We believe that studying abroad should be an exciting step, not a stressful process. Our integrated services are designed to manage the details so you can focus on your future.",
     features: [
-      "Comprehensive MSK assessment",
-      "Evidence-based treatment planning",
-      "Clinical mentorship for junior physios",
-      "Second opinions on complex MSK cases",
-      "Rehabilitation strategy development"
+      "Strategic Course & University Selection",
+      "Simplified Student Loans & Financing",
+      "Global Visa Application Support",
+      "Post-Arrival Guidance",
     ],
     quote: "Quality clinical care is the foundation of a successful physiotherapy career."
   }
