@@ -431,6 +431,34 @@ export default function App() {
   );
 }
 
+const testimonials = [
+  {
+    text: "Nirupama's guidance was a game-changer for my HCPC application. I felt so much more confident during the process.",
+    author: "Priya S.",
+    location: "Physiotherapist, India"
+  },
+  {
+    text: "The 1:1 session gave me a clear roadmap for the UK. I'm now working in an NHS trust thanks to her mentorship!",
+    author: "Ahmed R.",
+    location: "Physiotherapist, Egypt"
+  },
+  {
+    text: "Highly recommend the early prep guidance. It saved me months of confusion and thousands in fees.",
+    author: "Sarah L.",
+    location: "Physiotherapist, Australia"
+  },
+  {
+    text: "Expert clinical consultation. Her MSK knowledge is top-notch and helped me refine my own assessment skills.",
+    author: "James M.",
+    location: "Senior Physio, UK"
+  },
+  {
+    text: "A truly global mentor who understands the nuances of international licensing. Worth every penny.",
+    author: "Elena K.",
+    location: "Physiotherapist, Ireland"
+  }
+];
+
 const HomePage = () => {
   return (
     <>
@@ -723,6 +751,57 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-24 bg-blue-600 overflow-hidden relative">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 text-center relative z-10">
+          <h2 className="text-sm font-bold text-blue-200 uppercase tracking-widest mb-4">Success Stories</h2>
+          <h3 className="text-4xl font-bold text-white mb-6">Trusted by Physios Worldwide</h3>
+        </div>
+
+        {/* Moving Marquee */}
+        <div className="flex relative">
+          <motion.div 
+            className="flex space-x-8 whitespace-nowrap"
+            animate={{ x: [0, -1920] }}
+            transition={{ 
+              duration: 30, 
+              repeat: Infinity, 
+              ease: "linear" 
+            }}
+          >
+            {[...testimonials, ...testimonials].map((testimonial, idx) => (
+              <div 
+                key={idx} 
+                className="inline-block w-[400px] bg-white/10 backdrop-blur-md border border-white/20 p-8 rounded-3xl text-white whitespace-normal"
+              >
+                <div className="flex items-center mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <HeartPulse key={i} size={16} className="text-blue-300 fill-blue-300 mr-1" />
+                  ))}
+                </div>
+                <p className="text-lg font-medium mb-6 leading-relaxed">
+                  "{testimonial.text}"
+                </p>
+                <div className="flex items-center">
+                  <div className="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center font-bold text-blue-900 mr-3">
+                    {testimonial.author[0]}
+                  </div>
+                  <div>
+                    <p className="font-bold">{testimonial.author}</p>
+                    <p className="text-sm text-blue-200">{testimonial.location}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+      
       {/* Booking Section */}
       <section id="booking" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
