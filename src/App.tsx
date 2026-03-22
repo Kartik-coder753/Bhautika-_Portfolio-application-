@@ -443,16 +443,6 @@ const testimonials = [
     location: "Physiotherapist, Egypt"
   },
   {
-    text: "Highly recommend the early prep guidance. It saved me months of confusion and thousands in fees.",
-    author: "Sarah L.",
-    location: "Physiotherapist, Australia"
-  },
-  {
-    text: "Expert clinical consultation. Her MSK knowledge is top-notch and helped me refine my own assessment skills.",
-    author: "James M.",
-    location: "Senior Physio, UK"
-  },
-  {
     text: "A truly global mentor who understands the nuances of international licensing. Worth every penny.",
     author: "Elena K.",
     location: "Physiotherapist, Ireland"
