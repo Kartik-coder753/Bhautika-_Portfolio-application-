@@ -456,7 +456,37 @@ const testimonials = [
     text: "A truly global mentor who understands the nuances of international licensing. Worth every penny.",
     author: "Elena K.",
     location: "Physiotherapist, Ireland"
-  }
+  },
+  {
+    text: "I was on a student visa and worried about sponsorship. Nirupama's strategy helped me land an NHS job before my MSc even finished! Her HCPC guidance is flawless.",
+    author: "Anjali Sharma",
+    location: "NHS Physiotherapist, London"
+  },
+  {
+    text: "Getting HCPC registration seemed impossible from India. Nirupama's step-by-step mentorship made it so simple. I'm now working as a Band 5 Physio in Manchester.",
+    author: "Rohan Mehta",
+    location: "Band 5 Physio, Manchester"
+  },
+  {
+    text: "The best investment for any Indian physio moving to the UK. She helped me transition from a student visa to a Tier 2 sponsorship smoothly. Forever grateful!",
+    author: "Sneha Patel",
+    location: "Physiotherapist, Birmingham"
+  },
+  {
+    text: "Nirupama's interview prep is the reason I got 3 job offers in one week. She knows exactly what UK employers look for in international candidates.",
+    author: "Vikram Singh",
+    location: "MSK Physiotherapist, Leeds"
+  },
+  {
+    text: "As an international student, I saved so much time and money by following her early preparation roadmap. I got my HCPC and a job offer in record time.",
+    author: "Kavita Iyer",
+    location: "Physiotherapist, Glasgow"
+  },
+  {
+    text: "Her mentorship on clinical reasoning for the UK private sector was invaluable. I landed a senior role directly because of her guidance.",
+    author: "Arjun Reddy",
+    location: "Senior Physio, London"
+  },
 ];
 
 const HomePage = () => {
