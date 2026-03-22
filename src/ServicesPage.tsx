@@ -34,7 +34,6 @@ const services = [
     icon: <Award className="w-12 h-12" />,
     image: "https://github.com/user-attachments/assets/f5179061-87d1-4865-8633-c2daa562469e",
     description: "Gain global recognition through additional training and certifications curated for international standards. Stay ahead of the curve with evidence-based practice.",
-    longDescription: "Continuing Professional Development (CPD) is crucial in the global physiotherapy landscape. Our workshops are designed to bridge the gap between local education and international standards, ensuring you have the skills and certifications needed to succeed anywhere in the world.",
     features: [
       "Certificate courses for career advancement",
       "Skills enhancement for clinical and non-clinical growth",
